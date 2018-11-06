@@ -1,0 +1,23 @@
+//git 基本操作
+
+//添加文件
+git init 路径			工作区
+git status
+---git add .			暂存区
+git status
+---git commit -m 'init’	版本库
+git status
+
+
+
+//修改文件
+git status
+git add hello.txt
+git status
+git commit -m 'modify'
+git status
+
+
+//删除文件
+git rm 1.txt
+git commit -m 'delete 1.txt'

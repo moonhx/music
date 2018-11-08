@@ -21,4 +21,41 @@ git status
 git rm 1.txt
 git commit -m 'delete 1.txt'
 
+git init
+
+git add .
+
+git commit -m "做了什么"
+
+git remote add origin https://...
+
+git push origin master
+
+git clone
+
+//版本操作
+
+git log
+
+git reflog
+
+git log --pretty=oneline
+
+git reset --hard 版本号
+
+//分支操作
+
+git branch
+
+git branch dev
+
+git checkout master
+
+git add/commit
+
+git checkout master
+
+git merge dev
+
+git branch -D dev
 

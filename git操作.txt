@@ -59,3 +59,10 @@ git merge dev
 
 git branch -D dev
 
+
+//关于远程分支的操作
+git checkout -b shopping_cart	//创建分支
+git push origin :shopping_cart	//创建或删除远程分支
+git branch -r		//查看远程分支
+
+
